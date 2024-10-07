@@ -64,7 +64,7 @@ while True:
     endPosition = (startPoint[0] + endOffset[0], startPoint[1] + endOffset[1])
     pygame.draw.line(screen, (255, 255, 255), startPoint, endPosition, 2)
 
-    # gem visernes startpunkterne bag en cirkel
+    # gem visernes startpunkter bag en cirkel
     pygame.draw.circle(screen, (210, 40, 40), startPoint, 10)
 
     pygame.display.flip()
